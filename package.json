@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/dipanshujangid7877/vite-todo-app-.git",
   "name": "todo-app",
   "private": true,
   "version": "0.0.0",
@@ -7,9 +8,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
